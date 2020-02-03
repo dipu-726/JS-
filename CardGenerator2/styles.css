@@ -1,0 +1,30 @@
+body{
+    margin: auto;
+}
+.container1
+{
+    height: 500px;
+    width: 500px;
+    background-color: bisque;
+    float: left;
+    margin: 10px;
+}
+.container2
+{
+    height: 500px;
+    width: 500px;
+    background-color: aliceblue;
+    float: left;
+    margin: 10px;
+    padding-top: 20px;
+}
+
+button{
+    display: inline;
+}
+textarea
+{
+    display: block;
+    margin-top:20px;
+    resize: none;
+}
