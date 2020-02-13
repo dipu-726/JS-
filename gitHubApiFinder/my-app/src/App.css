@@ -1,0 +1,137 @@
+body {
+  animation: fadein 1s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.nav-bar
+{
+  background-color: bisque;
+  font-family: sans-serif;
+  height: 70px;
+  font-weight: bold;
+  line-height: 70px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.user-profile-search
+{
+  margin: auto;
+  text-align: center;
+  margin: 20px ;
+  position: absolute;
+  z-index: 10;
+}
+.user-profile
+{
+  margin: auto;
+  height: 500px;
+  width: 400px;
+  background-color: rgba(0,255,255,0.1);
+  border-radius: 0.3em;
+  padding-top: 20px;
+  position: absolute;
+  top:50px;
+  left: 50%;
+  margin-left: -200px;
+}
+
+.user-image
+{
+  margin: auto;
+  margin-bottom: 20px;
+  height: 220px;
+  width: 300px;
+  background-color: rgba(250, 234, 214,0.1);
+  border-radius: 0.2em;
+  text-align: center;
+
+
+}
+.general-user
+{
+  margin: auto;
+  height: 50px;
+  width: 300px;
+  background-color: rgba(220, 220, 220,0.4);
+  margin-bottom: 10px;
+  border-radius: 0.2em;
+  padding-left: 10px;
+  line-height: 50px;
+  text-align: center;
+}
+.user-name 
+{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.user-profile-pic
+{
+  height: 220px;
+  width: 220px;
+}
+
+.user-profile-input
+{
+  width: 335px;
+  outline: none;
+  padding-left: 5px;
+}
+
+.resize-icons
+{
+  width: 6px;
+  height: 6px;
+}
+
+.noselect{
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+.link-for-profile
+{
+  text-decoration: none;
+  color: black;
+}
+.main-container
+{
+  position: relative;
+}
+
+.input-from-list
+{
+  position: absolute;
+  top:30px;
+  display: block;
+  left:0px; 
+  
+}
+
+li
+{
+  width: 300px;
+  margin: auto;
+  
+  
+  list-style-type: none;
+  text-align: center;
+  background-color: rgba(245, 245, 245,0.5); 
+  cursor: pointer;
+  padding: 5px;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+}
+
